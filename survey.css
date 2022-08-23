@@ -1,0 +1,72 @@
+#title{
+  margin-bottom: 0.3em;
+  color: white;
+}
+#description{
+  font-size: 1.2em;
+  margin-top: 0;
+  color: white;
+}
+.container{
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-items:center;
+}
+.body-class{
+  background-image: url('img5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.temp{
+  margin: .5em ;
+}
+#survey-form{
+  display: grid;
+  padding: 2em;
+  grid-template-rows: 1fr;
+  grid-gap: 2em;
+  color: white;
+  width: 50%;
+  background-color: transparent;
+}
+
+.nested-grid{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-row-gap: 0.3em;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+
+}
+.nested-grid-2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+}
+option{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+}
+
+#name{
+  border-radius: 4px;
+  height: 1.8em;
+  border-style: solid;
+}
+
+#email{
+  border-radius: 4px;
+  height: 1.8em;
+  border-style: solid;
+}
+#number{
+  border-radius: 4px;
+  height: 1.8em;
+  border-style: solid;
+}
+
+#lang{
+    border-radius: 4px;
+    height: 35px;
+    border-style: solid;
+}

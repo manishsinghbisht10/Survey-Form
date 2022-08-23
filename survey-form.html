@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Survey form</title>
+  <link rel="stylesheet" href="survey.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body class="body-class"style="background-color:#D3EBCD;">
+  <div class="container">
+    <h1 id="title">Welcome to MySchoolCode Survey</h1>
+    <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+    <form id="survey-form" class="" action="index.html" method="post">
+      <div class="nested-grid">
+        <label " id="name-label" for="">Name</label>
+        <input id="name" type="text" name="" value="" placeholder="Enter your name">
+      </div>
+      <div class="nested-grid">
+        <label id="email-label" for="">Email</label>
+        <input id="email" type="email" name="" value="" placeholder="Enter your email">
+      </div>
+      <div class="nested-grid">
+        <label id="number-label" for="">Age</label>
+        <input id="number" type="text" name="" value="" placeholder="Age" min="7" max="65">
+      </div>
+      <div class="nested-grid">
+        <label for="">Which option best describe your current role ? </label>
+        <select id="lang" name="">
+          <option style=" font-weight: lighter;"value="">Select an option</option>
+          <option value="">Stdent</option>
+          <option value="">Full time job</option>
+          <option value="">Full time learner</option>
+          <option value="">Prefer not to say</option>
+          <option value="">Others</option>
+        </select>
+      </div>
+      <div class="nested-grid-2">
+        <label for="">Would you recommend Coding nijas to someone else.</label><br>
+        <input class="temp" type="radio" name="" value=""</input><label for="">Yes</label><br>
+        <input class="temp" type="radio" name="" value=""</input><label for="">Maybe</label><br>
+        <input class="temp" type="radio" name="" value=""</input><label for="">Not sure</label><br>
+      </div>
+      <div class="nested-grid">
+        <label for="">Which option best describe your current role ? </label>
+        <select id="lang" name="">
+          <option style=" font-weight: lighter;"value="">Select an option</option>
+          <option value="">Challenges</option>
+          <option value="">Projects</option>
+          <option value="">Community</option>
+          <option value="">Open source not to say</option>
+          <option value="">Others</option>
+        </select>
+      </div>
+      <div class="nested-grid-2">
+        <label>What would you like to see improved?</label><br>
+        <input class="temp"type="checkbox" name="" value=""><label for="">Front-end Projects</label><br>
+        <input class="temp"class="temp"type="checkbox" name="" value=""><label for="">Back-end Projects</label><br>
+        <input class="temp"type="checkbox" name="" value=""><label for="">Data Visualization</label><br>
+        <input class="temp"type="checkbox" name="" value=""><label for="">Challenges</label><br>
+        <input class="temp"class="temp"type="checkbox" name="" value=""><label for="">Open Source Community</label><br>
+        <input class="temp"type="checkbox" name="" value=""><label for="">Gitter help rooms</label><br>
+        <input class="temp"class="temp"class="temp"type="checkbox" name="" value=""><label for="">Videos</label><br>
+        <input class="temp"class="temp"type="checkbox" name="" value=""><label for="">City Meetups</label><br>
+        <input class="temp"type="checkbox" name="" value=""><label for="">Wiki</label><br>
+        <input class="temp"type="checkbox" name="" value=""><label for="">Forum</label><br>
+        <input class="temp"type="checkbox" name="" value=""><label for="">Additional Courses</label><br>
+      </div>
+      <div class="nested-grid">
+        <label for="">Any comment or suggestion?</label>
+        <textarea name="name" rows="4" cols="8"></textarea>
+      </div>
+      <input id="submit" type="submit"class="btn btn-dark btn-lg" name="" value="Submit">
+    </form>
+  </div>
+
+</body>
+
+</html>
